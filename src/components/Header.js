@@ -1,6 +1,6 @@
 import React from 'react';
-export default function Header(){
-    let resumeData = this.props.resumeData;
+export default function Header(props){
+    let resumeData = props.resumeData;
     return (
       <React.Fragment>
       

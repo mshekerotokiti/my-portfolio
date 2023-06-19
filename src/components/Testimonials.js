@@ -1,6 +1,6 @@
 import React from 'react';
-export default function Testimonials(){
-    let resumeData = this.props.resumeData;
+export default function Testimonials(props){
+    let resumeData = props.resumeData;
     return (
       <section id="testimonials">
         <div className="text-container">

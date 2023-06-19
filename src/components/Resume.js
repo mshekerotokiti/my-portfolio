@@ -1,6 +1,6 @@
 import React from 'react';
-export default  function Resume(){
-    let resumeData = this.props.resumeData;
+export default  function Resume(props){
+    let resumeData = props.resumeData;
     return (
       <section id="resume">
 

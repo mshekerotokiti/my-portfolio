@@ -1,6 +1,6 @@
 import React from 'react';
-export default function Contact () {
-    let resumeData = this.props.resumeData;
+export default function Contact (props) {
+    let resumeData = props.resumeData;
     return (
       <section id="contact">
           <div className="row section-head">

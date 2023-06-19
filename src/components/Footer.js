@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-export default function Footer (){
-    let resumeData = this.props.resumeData;
+import React from 'react';
+export default function Footer (props){
+    let resumeData = props.resumeData;
     return (
       <footer>
       <div className="row">

@@ -1,6 +1,6 @@
 import React from 'react';
-export default function Portfolio(){
-    let resumeData = this.props.resumeData;
+export default function Portfolio(props){
+    let resumeData = props.resumeData;
     return (
       <section id="portfolio">
       <div className="row">
